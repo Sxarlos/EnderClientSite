@@ -51,7 +51,7 @@ export default {
 };
 
 async function handleRelease() {
-  const GH_URL = 'https://api.github.com/repos/Sxarlos/EnderClient/releases/latest';
+  const GH_URL = 'https://api.github.com/repos/Sxarlos/ThendraskLauncher/releases/latest';
   const CACHE_TTL = 300; // 5 minutes
   const cache = caches.default;
   const cacheKey = new Request(GH_URL);
